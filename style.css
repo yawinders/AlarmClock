@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.alarm-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    border: 2px solid black;
+}
+
+.clock {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.set-alarm {
+    margin-bottom: 20px;
+}
+
+#alarms-list {
+    text-align: left;
+}
+
+#alarms-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#alarms-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-left: 5px;
+}
